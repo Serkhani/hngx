@@ -48,23 +48,25 @@ git clone https://github.com/serkhani/hngx
 Navigate to the project directory:
 
 ```bash
-cd zuri_stage_one
+cd hngx\zuri_stage_one
 ```
-Install the necessary dependencies.
-For Android:
-```flutter pub get
+
+Install the necessary dependencies.  
+For Android:  
+```dart
+flutter pub get
 ```
 Build and run the application on your desired emulator or physical device.
 
 ## Assumptions
-During the development of this application, the following assumptions were made:
-The user's Slack name and profile picture remain constant for the duration of app usage.
+During the development of this application, the following assumptions were made:  
+The user's **Slack name** and **profile picture** remain constant for the duration of app usage.  
 The GitHub profile URL is known and constant.
 
 ## Usage
 Once the application is installed and running on your mobile device, you can:
-View your Slack identity and profile picture on the main screen.
-Tap the "Open GitHub" button to access your GitHub profile within the app using the WebView component.
+View your** Slack identity** and **profile picture** on the main screen.
+Tap the **"Open GitHub"** button to access your GitHub profile within the app using the WebView component.
 
 
 ## Screenshots
