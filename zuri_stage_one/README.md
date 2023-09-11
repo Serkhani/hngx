@@ -1,11 +1,11 @@
-# zuri_stage_one
 # My Mobile Application - Slack to GitHub
+#### zuri_stage_one
 
 Welcome to my mobile application project, where I've created an app that seamlessly connects my Slack identity with my GitHub profile.
 
 ## Table of Contents
-- [zuri\_stage\_one](#zuri_stage_one)
 - [My Mobile Application - Slack to GitHub](#my-mobile-application---slack-to-github)
+      - [zuri\_stage\_one](#zuri_stage_one)
   - [Table of Contents](#table-of-contents)
   - [Objective](#objective)
   - [Features](#features)
