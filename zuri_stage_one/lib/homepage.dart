@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'webview.dart';
+
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
@@ -33,7 +35,13 @@ class HomePage extends StatelessWidget {
                       overflow: TextOverflow.fade),
                 ),
                 ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                     Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) =>
+                                const WebViewApp()));
+                  },
                   child: const Text("Open Github"),
                 ),
               ],
