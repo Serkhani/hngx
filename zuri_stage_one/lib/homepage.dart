@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
@@ -23,16 +24,17 @@ class HomePage extends StatelessWidget {
                     foregroundImage: AssetImage('assets/profile.jpg'),
                   ),
                 ),
-                const Text("Boniface Delali Dakey",
-                style: TextStyle(
-                  fontSize: 30.0,
-                  fontWeight: FontWeight.w500,
-                  overflow: TextOverflow.fade
-                ),),
-                    ElevatedButton(
-                      onPressed: () {},
-                       child: const Text("Open Github"),
-                    ),
+                const Text(
+                  "Boniface Delali Dakey",
+                  style: TextStyle(
+                      fontSize: 30.0,
+                      fontWeight: FontWeight.w500,
+                      overflow: TextOverflow.fade),
+                ),
+                ElevatedButton(
+                  onPressed: () {},
+                  child: const Text("Open Github"),
+                ),
               ],
             ),
           ),
